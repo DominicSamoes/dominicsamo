@@ -99,12 +99,12 @@ export const Education = () => {
     ]
 
     return (
-        <section className="project" id="education">
+        <section className="education" id="education">
             <Container>
                 <Row>
                     <Col>
                         <h2>Education</h2>
-                        <Tab.Container id="projects-tabs" defaultActiveKey="first">
+                        <Tab.Container id="education-tabs" defaultActiveKey="first">
                             <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pill-tab">
                                 <Nav.Item>
                                     <Nav.Link eventKey="first">Tertiary</Nav.Link>

@@ -12,7 +12,7 @@ export const Projets = () => {
         {
             title: "FNB Virtual Centre",
             description: "FNB Innovation Contest",
-            imgUrl: projImg1
+            imgUrl: aluImg
         },
         {
             title: "TheTradesmon",
@@ -22,7 +22,7 @@ export const Projets = () => {
         {
             title: "Tindlu",
             description: "MTN Hackathon Hack",
-            imgUrl: projImg1
+            imgUrl: songImg
         },
         {
             title: "Alumnyy",
@@ -125,7 +125,6 @@ export const Projets = () => {
                     </Col>
                 </Row>
             </Container>
-            <img className="background-image-right" src={projImg1} alt="" />
         </section>
     )
  }

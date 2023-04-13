@@ -3,7 +3,7 @@ import AutoStoriesIcon from '@mui/icons-material/AutoStories';
 
 export const SkillCard = ({ description, imgUrl }) => {
     return (
-        <Col sm={6} md={4}>
+        <Col sm={6} md={6}>
             <div className="proj-imgbx">
                 <img src={imgUrl} alt="" />
                 <div className="proj-txtx">
@@ -16,7 +16,7 @@ export const SkillCard = ({ description, imgUrl }) => {
 
 export const ProjectCard = ({ title, description, imgUrl }) => {
     return (
-        <Col sm={6} md={4}>
+        <Col sm={6} md={6}>
             <div className="proj-imgbx">
                 <img src={imgUrl} alt="" />
                 <div className="proj-txtx">
@@ -30,7 +30,7 @@ export const ProjectCard = ({ title, description, imgUrl }) => {
 
 export const ProjectCardArt = ({ title, description, plans, imgUrl }) => {
     return (
-        <Col sm={6} md={4}>
+        <Col sm={6} md={6}>
             <div className="proj-imgbx">
                 <img src={imgUrl} alt="" />
                 <div className="proj-txtx">
@@ -45,11 +45,11 @@ export const ProjectCardArt = ({ title, description, plans, imgUrl }) => {
 
 export const HonoursCard = ({ title, institution, date, description, imgUrl }) => {
     return (
-        <Col sm={6} md={4}>
-            <h4>{title}</h4>
-            <div className="proj-imgbx">
+        <Col sm={12}>
+            <div className="hon-imgbx">
                 <img src={imgUrl} alt="" />
-                <div className="proj-txtx">
+                <div className="hon-txtx">
+                    <h4>{title}</h4>
                     <h3>{institution}</h3>
                     <span>{description}</span>
                     <p>{date}</p>

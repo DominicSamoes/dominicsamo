@@ -5,6 +5,7 @@ import { Skills } from './components/Skills';
 import { Projets } from './components/Projects';
 import { Honours } from './components/Honours';
 import { Education } from './components/Education';
+import { Experience } from './components/Experience';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             <Projets />
             <Honours />
             <Education />
+            <Experience />
         </div>
     );
 }

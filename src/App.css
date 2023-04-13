@@ -85,14 +85,16 @@ p.success {
 p.danger {
 	color: red;
 }
-/************ Navbar Css ************/
+/************ Navbar CSS ************/
 nav.navbar {
-  padding: 18px 0;
+  padding: 5px 0;
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 9999;
   transition:  0.32s ease-in-out;
+  background-color: green ;
+  border-bottom: 3px dotted black;
 }
 nav.navbar.scrolled {
   padding: 0px 0;
@@ -236,7 +238,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Banner CSS ************/
 .banner {
-  margin-top: 0;
+  margin-top: 50px;
   padding: 8px 0 100px 0;
   background-image: url('./assets/img/banner-bg3.jpg');
   background-position: top center;
@@ -302,6 +304,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
+}
+
+/************ Horizontal Line *******/
+hr.line {
+  border-top: 4px dotted #ffffff;
 }
 
 /************ Skills CSS ************/
@@ -420,15 +427,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .nav-link#projects-tabs-tab-third {
   border: 1px solid green;
 }
-.nav-link#projects-tabs-tab-fourth {
-  border: 1px solid green;
-}
-.nav-link#projects-tabs-tab-fifth {
-  border: 1px solid green;
-}
-.nav-link#projects-tabs-tab-sixth {
-  border: 1px solid green;
-}
 .proj-imgbx {
   position: relative;
   border-radius: 30px;
@@ -482,7 +480,219 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-/************ Projects CSS ************/
+/************ Honours CSS **************/
+.honour {
+  padding: 0 0 5px 0;
+  position: relative;
+  background: green;
+}
+.honour-bx {
+  background: green;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: -60px;
+}
+.hon h2 {
+	font-size: 45px;
+	font-weight: 700;
+  padding-top: 5px;
+}
+.hon p {
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px 0 75px 0;
+    border-radius: 15px;
+    border-color: #000;
+}
+.hon-imgbx {
+  position: relative;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+.hon-imgbx::before {
+  content: "";
+  background: linear-gradient(90.21deg, green -5.91%, #4A2FBD 111.58%);
+  opacity: 0.85;
+  position: absolute;
+  width: 100%;
+  height: 0;
+  transition: 0.4s ease-in-out;
+}
+.hon-imgbx:hover::before {
+  height: 100%;
+}
+.hon-txtx {
+  position: absolute;
+  text-align: center;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s ease-in-out;
+  opacity: 0;
+  width: 100%;
+}
+.hon-imgbx:hover .hon-txtx {
+  top: 50%;
+  opacity: 1;
+}
+.hon-txtx h4 {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1.1em;
+}
+.hon-txtx span {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.8px;
+}
+
+/************ Education CSS ************/
+.education {
+  padding: 80px 0;
+  position: relative;
+  background: green;
+  background-image: url('./assets/img/banner-bg3.jpg');
+}
+.education h2 {
+	font-size: 45px;
+	font-weight: 700;
+  text-align: center;
+}
+.education p {
+  color: green;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px auto 30px auto;
+  text-align: center;
+  width: 56%;
+}
+.education .nav.nav-pills {
+  width: 72%;
+  margin: 0 auto;
+  border-radius: 50px;
+  background-color: rgb(255 255 255 / 10%);
+  overflow: hidden;
+}
+.education .nav.nav-pills .nav-item {
+  width: 33.33333%;
+}
+.education .nav.nav-pills .nav-link {
+  background-color: transparent;
+  border-radius: 0;
+  padding: 17px 0;
+  color: #fff;
+  width: 100%;
+  font-size: 17px;
+  letter-spacing: 0.8px;
+  font-weight: 500;
+  position: relative;
+  transition: 0.3s ease-in-out;
+  text-align: center;
+  z-index: 0;
+}
+.education .nav.nav-pills .nav-link::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background-color: green;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.3s ease-in-out;
+}
+.education .nav.nav-pills .nav-link.active::before {
+    width: 100% !important;
+}
+.education .nav.nav-pills .nav-link.active {
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+.nav-link#education-tabs-tab-first {
+  border: 1px solid green;
+  border-radius: 55px 0px 0px 55px;
+}
+.nav-link#education-tabs-tab-second {
+  border: 1px solid green;
+}
+.nav-link#education-tabs-tab-third {
+  border: 1px solid green;
+}
+.nav-link#education-tabs-tab-fourth {
+  border: 1px solid green;
+}
+.nav-link#education-tabs-tab-fifth {
+  border: 1px solid green;
+}
+.nav-link#education-tabs-tab-sixth {
+  border: 1px solid green;
+}
+.edu-imgbx {
+  position: relative;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+.edu-imgbx::before {
+  content: "";
+  background: linear-gradient(90.21deg, green -5.91%, #4A2FBD 111.58%);
+  opacity: 0.85;
+  position: absolute;
+  width: 100%;
+  height: 0;
+  transition: 0.4s ease-in-out;
+}
+.edu-imgbx:hover::before {
+  height: 100%;
+}
+.edu-txtx {
+  position: absolute;
+  text-align: center;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s ease-in-out;
+  opacity: 0;
+  width: 100%;
+}
+.edu-imgbx:hover .edu-txtx {
+  top: 50%;
+  opacity: 1;
+}
+.edu-txtx h4 {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1.1em;
+}
+.edu-txtx span {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.8px;
+}
+.background-image-right {
+  top: 20%;
+  position: absolute;
+  bottom: 0;
+  width: 35%;
+  right: 0;
+  z-index: -4;
+}
+
+/************ Experience CSS **********/
+.experience {
+  width: 10%;
+  border-radius: 12px;
+}
+
+/************ Contact CSS ************/
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
   padding: 60px 0 200px 0;
