@@ -764,6 +764,20 @@ hr.line {
   width: 100%;
 }
 
+/************ Button To-Top CSS *****/
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 50px;
+  color: white;
+  cursor: pointer;
+}
+
+.back-to-top:hover {
+  color: #000;
+}
+
 /************ Footer CSS ************/
 .footer {
   padding: 0 0 50px 0;
@@ -838,7 +852,7 @@ hr.line {
 .footer p {
   font-weight: 400;
   font-size: 14px;
-  color: #B8B8B8;
+  color: #fff;
   letter-spacing: 0.5px;
   margin-top: 20px;
 }

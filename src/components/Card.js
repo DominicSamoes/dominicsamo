@@ -45,7 +45,7 @@ export const ProjectCardArt = ({ title, description, plans, imgUrl }) => {
 
 export const HonoursCard = ({ title, institution, date, description, imgUrl }) => {
     return (
-        <Col sm={12}>
+        <Col sm={6} md={6}>
             <div className="hon-imgbx">
                 <img src={imgUrl} alt="" />
                 <div className="hon-txtx">
@@ -61,7 +61,7 @@ export const HonoursCard = ({ title, institution, date, description, imgUrl }) =
 
 export const CertificateCard = ({ description, timeframe, imgUrl, link }) => {
     return (
-        <Col sm={6} md={4}>
+        <Col sm={6} md={6}>
             <div className="proj-imgbx">
                 <img src={imgUrl} alt="" />
                 <div className="proj-txtx">
@@ -76,7 +76,7 @@ export const CertificateCard = ({ description, timeframe, imgUrl, link }) => {
 
 export const DegreeCard = ({ institution, description, timeframe, imgUrl }) => {
     return (
-        <Col sm={6} md={4}>
+        <Col sm={6} md={6}>
             <div className="proj-imgbx">
                 <img src={imgUrl} alt="" />
                 <div className="proj-txtx">

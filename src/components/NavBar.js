@@ -51,8 +51,8 @@ export const NavBar = () => {
               <div className="social-icon">
                 <a href="https://www.linkedin.com/in/dominic-samo-754014187/" rel="opener"><img src={navIcon1} alt="" /></a>
                 <a href="https://github.com/DominicSamoes" rel="opener"><img src={navIcon2} alt="" /></a>
-                <a href="https://www.instagram.com/dominic_samoes/" rel="opener"><img src={navIcon3} alt="" /></a>
                 <a href="https://medium.com/@dominicsamo" rel="opener"><img src={navIcon4} alt="" /></a>
+                <a href="https://www.instagram.com/dominic_samoes/" rel="opener"><img src={navIcon3} alt="" /></a>
               </div>
             </span>
           </Navbar.Collapse>
