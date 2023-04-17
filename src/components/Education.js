@@ -11,6 +11,7 @@ import bscImg from "../assets/img/bsc.png"
 import psfImg from "../assets/img/psffa.png"
 import itnImg from "../assets/img/itn.png"
 import srweImg from "../assets/img/srwe.png"
+import alxImg from "../assets/img/alx.png"
 
 export const Education = () => {
     const tertiary = [
@@ -25,7 +26,7 @@ export const Education = () => {
         {
             description: "ALX SE Holberton Program, Software Engineering",
             timeframe: "February 2022 - March 2023",
-            imgUrl: projImg1,
+            imgUrl: alxImg,
             link: "test.com"
         },
     ]

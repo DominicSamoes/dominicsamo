@@ -6,7 +6,8 @@ import { Projets } from './components/Projects';
 import { Honours } from './components/Honours';
 import { Education } from './components/Education';
 import { Experience } from './components/Experience';
-/* import { Footer } from './components/Footer'; */
+import { Contact } from './components/Contact';
+import { Footer } from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useEffect, useState } from "react";
 import { ArrowUpCircle } from "react-bootstrap-icons";
@@ -42,12 +43,13 @@ function App() {
             <Honours />
             <Education />
             <Experience />
+            <Contact />
             {showButton && (
                 <button onClick={scrollToTop} className="back-to-top">
                     <ArrowUpCircle />
                 </button>
             )}
-            {/* <Footer /> */}
+            <Footer />
         </div>
     );
 }

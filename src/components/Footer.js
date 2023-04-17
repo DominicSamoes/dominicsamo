@@ -1,7 +1,7 @@
 export const Footer = () => {
     return (
         <section className="footer" id="footer">
-            <p>Dominic Samo</p>
+            <p> &copy; { new Date().getFullYear() } Dominic Samo</p>
         </section>
     )
 }
