@@ -12,10 +12,10 @@ console.log(process.env.EMAIL_USER);
 console.log(process.env.EMAIL_PASS);
 
 const contactEmail = nodemailer.createTransport({
-    service: 'outlook',
+    service: 'gmail',
     auth: {
-        user: 'email@outlook.com',
-        pass: ''
+        user: 'samoxcorp@gmail.com',
+        pass: 'egadovrljilsfnrz'
     }
 });
 
@@ -33,5 +33,21 @@ router.post('/contact', (req, res) => {
     const phone = req.body.phone;
     const message = req.body.message;
     
+    const mail = {
+        from: name,
+        to: 'samoxcorp@gmail.com',
+        subject: 'Contact - Portfolio Website',
+        html: `<p>Name: ${name}</p>
+               <p>Email: ${email}</p>
+               <p>Phone: ${phone}</p>
+               <p>Message: ${message}</p>`,
+    };
 
-})
+    contactEmail.sendMail(mail, (error) => {
+        if (error) {
+            res.json(error);
+        } else {
+            res.json({ code: 200, status: "Message Sent" });
+        }
+    });
+});

@@ -257,7 +257,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: inline-block;
 }
 .banner h1 {
-  font-size: 65px;
+  font-size: 45px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
@@ -698,7 +698,6 @@ hr.line {
   background: green;
   border-radius: 64px;
   text-align: center;
-  padding: 60px 50px;
   margin-top: -60px;
 }
 .experience h2 {
@@ -728,15 +727,66 @@ hr.line {
 /************ Contact CSS ************/
 .contact {
   background: linear-gradient(90.21deg, #089e21 -5.91%, green 111.58%);
-  padding: 60px 0 200px 0;
+  padding: 60px 50px;
 }
-.contact img {
-  width: 92%;
+.social-icon-contact {
+  display: inline-block;
+  margin-left: 14px;
+}
+.social-icon-contact a {
+  width: 50px;
+  height: 50px;
+  background: rgba(217, 217, 217, 0.1);
+  display: inline-flex;
+  border-radius: 50%;
+  margin-right: 6px;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.social-icon-contact a::before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 50%;
+  transform: scale(0);
+transition: 0.3s ease-in-out;
+}
+.social-icon-contact a:hover::before {
+  transform: scale(1);
+}
+.social-icon-contact a img {
+width: 50%;
+z-index: 1;
+transition: 0.3s ease-in-out;
+}
+.social-icon-contact a:hover img {
+filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
+}
+a:-webkit-any-link {
+  text-decoration: none;
+  color: inherit;
 }
 .contact h2 {
 	font-size: 45px;
 	font-weight: 700;
-  margin-bottom: 30px;
+  text-align: center;
+}
+.contact h3 {
+	font-size: 25px;
+	font-weight: 300;
+  text-align: left;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+.contact h4 {
+	font-size: 25px;
+	font-weight: 300;
+  text-align: left;
+  padding-top: 30px;
 }
 .contact form input, .contact form textarea {
   width: 100%;
