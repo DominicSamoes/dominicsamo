@@ -3,6 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
+import navIcon4 from '../assets/img/kaggle-icon.svg';
+import navIcon5 from '../assets/img/zindiLogo.png';
 import ForwardToInboxIcon from '@mui/icons-material/ForwardToInbox';
 import HandshakeIcon from '@mui/icons-material/Handshake';
 import PhoneInTalkIcon from '@mui/icons-material/PhoneInTalk';
@@ -64,47 +66,12 @@ export const Contact = () => {
                         <h4><EmailIcon /> <a href="mailto:samoxcorp@gmail.com" className="a">samoxcorp@gmail.com</a></h4>
                     </div>
                     <div className="col">
-                        <h3><ForwardToInboxIcon  /> Email Me Right Away</h3>
-                        <form onSubmit={handleSubmit}>
-                            <Row>
-                                <Col sm={6} className="px-1">
-                                    <input type="text" 
-                                           value={formDetails.name} 
-                                           placeholder="Name" 
-                                           onChange={(e) => onFormUpdate('name', e.target.value)} 
-                                    />
-                                </Col>
-                                <Col sm={6} className="px-1">
-                                    <input type="email" 
-                                           value={formDetails.email} 
-                                           placeholder="Email Address" 
-                                           onChange={(e) => onFormUpdate('email', e.target.value)} 
-                                    />
-                                </Col>
-                                <Col sm={6} className="px-1">
-                                    <input type="tel" 
-                                           value={formDetails.phone} 
-                                           placeholder="Phone Number" 
-                                           onChange={(e) => onFormUpdate('phone', e.target.value)} 
-                                    />
-                                </Col>
-                                <Col>
-                                    <textarea 
-                                           rows="6" 
-                                           value={formDetails.message} 
-                                           placeholder="Message" 
-                                           onChange={(e) => onFormUpdate('message', e.target.value)} 
-                                    />
-                                    <button type="submit"><span>{buttonText}</span></button>
-                                </Col>
-                                {
-                                    status.message && 
-                                    <Col>
-                                       <p className={status.success === false ? 'danger' : 'success'}>{status.message}</p> 
-                                    </Col>
-                                }
-                            </Row>
-                        </form>
+                        <h3><ForwardToInboxIcon  /> Data Science Sites</h3>
+                        <p>I am active on Data Science Sites Kaggle and Zindi.</p>
+                        <div className="social-icon-contact">
+                            <a href="https://www.kaggle.com/dominicsamoes" rel="opener"><img src={navIcon4} alt="" /></a>
+                            <a href="https://zindi.africa/users/DSamo" rel="opener"><img src={navIcon5} alt="" /></a>
+                        </div>
                     </div>
                 </div>
             </Container>

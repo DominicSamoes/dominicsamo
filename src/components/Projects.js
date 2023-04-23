@@ -40,7 +40,14 @@ export const Projets = () => {
         {
             title: "Zimnat Monthly Insurance Claim Prediction",
             description: "Zindi Africa Umojahack",
-            imgUrl: projImg1
+            imgUrl: projImg1,
+            url: "https://drive.google.com/file/d/1LP6cwOcBZcfgE2l-_3hhfirY9-2FN5yz/view?usp=sharing"
+        },
+        {
+            title: "Salary Prediction ML Model Deployment",
+            description: "Portfolio Data Science Project",
+            imgUrl: projImg1,
+            url: "https://github.com/DominicSamoes/ml-model-deployment-flask"
         }
     ]
 
