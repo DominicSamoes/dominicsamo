@@ -4,8 +4,8 @@ import "react-multi-carousel/lib/styles.css";
 import fnbLogo from "../assets/img/fnb-logo.svg"
 /* import uihBanner from "../assets/img/UIA-Slider-Banner-V1.png" */
 import mtnLogo from "../assets/img/mtn-new-logo.svg"
-import zindiLogo from "../assets/img/zindiLogo.png"
-import defImage from "../assets/img/footer-bg.jpg"
+import zindiLogo from "../assets/img/zindiLogo_result.webp"
+import defImage from "../assets/img/footer-bg_result.webp"
 
 export const Honours = () => {
   const honours = [
@@ -53,7 +53,7 @@ export const Honours = () => {
       description: "Used Deep Learning and Machine Learning to predict how much " +
       "a client will claim from Zimnat (Zimbabwean financial " +
       "service provider) per month for a whole year. Was number 37 " +
-      "in Africa Zindi Leaderboard and number 1 in Eswatini Zindi Leaderboard.",
+      "in Africa Zindi Leaderboard and number 1 in Eswatini Zindi Leaderboard. Won $120.00",
       imgUrl: zindiLogo
     }
   ];

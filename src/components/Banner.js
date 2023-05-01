@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
-import headerImg from "../assets/img/me.png"
+import headerImg from "../assets/img/me_result.webp"
 
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
@@ -40,6 +40,14 @@ export const Banner = () => {
         }
     }
 
+    // Scroll the window to Contact
+    const scrollToContact = () => {
+            window.scrollTo({
+            top: document.documentElement.scrollHeight,
+            behavior: 'smooth'
+            })
+    } 
+
     return (
         <section className="banner" id="home">
             <Container>
@@ -58,7 +66,7 @@ export const Banner = () => {
                         <p>
                           I am a swimmer, cyclist, comic and graphic book artist, History, Political Science, World Geography, International Relations and Philosophy enthusiast.
                         </p>
-                        <button onClick={() => console.log('connect')}>Let's Connect <ArrowRightCircle size={25} /></button>
+                        <button onClick={scrollToContact}>Let's Connect <ArrowRightCircle size={25} /></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={headerImg} alt="Header Img" />

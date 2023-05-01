@@ -1,13 +1,13 @@
 import { Container, Row, Col, Nav, Tab } from "react-bootstrap"
 import { ProjectCard, ProjectCardArt } from "./Card"
-import projImg1 from "../assets/img/footer-bg.jpg"
-import ttImg from "../assets/img/tt.png"
-import aluImg from "../assets/img/alu.png"
-import songImg from "../assets/img/sotemp.png"
-import hhLogo from "../assets/img/hh.png"
-import slLogo from "../assets/img/sl.jpg"
+import projImg1 from "../assets/img/footer-bg_result.webp"
+import ttImg from "../assets/img/tt_result.webp"
+import aluImg from "../assets/img/alu_result.webp"
+import songImg from "../assets/img/sotemp_result.webp"
+import hhLogo from "../assets/img/hh_result.webp"
+import slLogo from "../assets/img/sl_result.webp"
 
-export const Projets = () => {
+export const Projects = () => {
     const sweprojects = [
         {
             title: "FNB Virtual Centre",

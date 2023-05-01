@@ -1,17 +1,17 @@
 import { Container, Row, Col, Nav, Tab } from "react-bootstrap"
 import { DegreeCard, CertificateCard } from "./Card"
-import projImg1 from "../assets/img/footer-bg.jpg"
-import pyImg from "../assets/img/py.png"
-import introlImg from "../assets/img/introml.png"
-import imlImg from "../assets/img/iml.png"
-import cvImg from "../assets/img/vision.png"
-import aietImg from "../assets/img/aiethics.png"
-import vizImg from "../assets/img/viz.png"
-import bscImg from "../assets/img/bsc.png"
-import psfImg from "../assets/img/psffa.png"
-import itnImg from "../assets/img/itn.png"
-import srweImg from "../assets/img/srwe.png"
-import alxImg from "../assets/img/alx.png"
+import projImg1 from "../assets/img/footer-bg_result.webp"
+import pyImg from "../assets/img/py_result.webp"
+import introlImg from "../assets/img/introml_result.webp"
+import imlImg from "../assets/img/iml_result.webp"
+import cvImg from "../assets/img/vision_result.webp"
+import aietImg from "../assets/img/aiethics_result.webp"
+import vizImg from "../assets/img/viz_result.webp"
+import bscImg from "../assets/img/bsc_result.webp"
+import psfImg from "../assets/img/psffa_result.webp"
+import itnImg from "../assets/img/itn_result.webp"
+import srweImg from "../assets/img/srwe_result.webp"
+import alxImg from "../assets/img/alx_result.webp"
 
 export const Education = () => {
     const tertiary = [
@@ -24,10 +24,10 @@ export const Education = () => {
     ]
     const alx = [
         {
-            description: "ALX SE Holberton Program, Software Engineering",
+            description: "ALX Software Engineering Programme",
             timeframe: "February 2022 - March 2023",
             imgUrl: alxImg,
-            link: "test.com"
+            link: "https://drive.google.com/file/d/1aB0fdPxlcBl_VM3CyZ1F-PSLQCfL8Iph/view?usp=sharing"
         },
     ]
     const cisco = [

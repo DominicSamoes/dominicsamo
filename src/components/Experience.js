@@ -1,8 +1,8 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import svLogo from "../assets/img/sv.png"
-import montLogo from "../assets/img/mont.png"
+import svLogo from "../assets/img/sv_result.webp"
+import montLogo from "../assets/img/mont_result.webp"
 
 export const Experience = () => {
     const responsive = {
