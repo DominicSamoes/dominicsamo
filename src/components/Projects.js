@@ -27,7 +27,8 @@ export const Projects = () => {
         {
             title: "Alumnyy",
             description: "ALX Africa Software Engineering Certificate Foundations Portfolio Project",
-            imgUrl: aluImg
+            imgUrl: aluImg,
+            url: "https://alumnyyinc.pythonanywhere.com/"
         },
         {
             title: "Songcondvo",
