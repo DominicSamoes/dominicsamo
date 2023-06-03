@@ -12,7 +12,7 @@ import fnbVCS from "../assets/img/fnb_result.webp"
 export const Projects = () => {
     const sweprojects = [
         {
-            title: "FNB Virtual Centre",
+            title: "FNB Virtual Service Centre",
             description: "FNB Innovation Contest",
             imgUrl: fnbVCS
         },
