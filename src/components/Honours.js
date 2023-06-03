@@ -14,7 +14,7 @@ export const Honours = () => {
       institution: "FNB Eswatini",
       date: "Decemeber 2020",
       description:
-        "With a UNESWA fellow alumni, we designed a query and enquiries ticketing system called FNB Virtual Centre. " +
+        "With a UNESWA fellow alumni, we designed a query and enquiries ticketing system called FNB Virtual Service Centre. " +
         "FNB sponsored the competition as part of the annual UNESWA ICT Fair Hackathon. We won a first place prize of " +
         "E30 000.00 for our innovation.",
       imgUrl: fnbLogo,
