@@ -6,6 +6,7 @@ import aluImg from "../assets/img/alu_result.webp"
 import songImg from "../assets/img/sotemp_result.webp"
 import hhLogo from "../assets/img/hh_result.webp"
 import slLogo from "../assets/img/sl_result.webp"
+import tindlu from "../assets/img/tindlu_result.webp"
 
 export const Projects = () => {
     const sweprojects = [
@@ -21,8 +22,9 @@ export const Projects = () => {
         },
         {
             title: "Tindlu",
-            description: "MTN Hackathon Hack",
-            imgUrl: songImg
+            description: "Online marketplace that allow users to list, manage and book short-term or long-term accommodation.",
+            imgUrl: tindlu,
+            url: "https://tindlu.000webhostapp.com/"
         },
         {
             title: "Alumnyy",
