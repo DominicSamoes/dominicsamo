@@ -7,13 +7,14 @@ import songImg from "../assets/img/sotemp_result.webp"
 import hhLogo from "../assets/img/hh_result.webp"
 import slLogo from "../assets/img/sl_result.webp"
 import tindlu from "../assets/img/tindlu_result.webp"
+import fnbVCS from "../assets/img/fnbVCS_result.webp"
 
 export const Projects = () => {
     const sweprojects = [
         {
             title: "FNB Virtual Centre",
             description: "FNB Innovation Contest",
-            imgUrl: aluImg
+            imgUrl: fnbVCS
         },
         {
             title: "TheTradesmon",
