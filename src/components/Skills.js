@@ -35,7 +35,7 @@ export const Skills = () => {
                             <h4>Technical Skills</h4>
                             <Carousel responsive={responsive} infinite={true} className="skills-slider">
                                 <div className="item">
-                                    <p>Languages: Python, Java, C++, C, Haskell, PHP and JavaScript</p>
+                                    <p>Languages: Python, Java, C++, C, Haskell, PHP, Kotlin and JavaScript</p>
                                 </div>
                                 
                                 <div className="item">
