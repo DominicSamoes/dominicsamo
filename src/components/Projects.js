@@ -18,7 +18,8 @@ export const Projects = () => {
         {
             title: "TheTradesmon",
             description: "UNESWA final year Computer Science research project",
-            imgUrl: ttImg
+            imgUrl: ttImg,
+            url: "https://thetradesmon.000webhostapp.com"
         },
         {
             title: "Tindlu",
