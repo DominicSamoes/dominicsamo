@@ -27,7 +27,7 @@ export const Education = () => {
             description: "ALX Software Engineering Programme",
             timeframe: "February 2022 - March 2023",
             imgUrl: alxImg,
-            link: "https://drive.google.com/file/d/1aB0fdPxlcBl_VM3CyZ1F-PSLQCfL8Iph/view?usp=sharing"
+            link: "https://intranet.alxswe.com/certificates/58SNJcBfp2"
         },
     ]
     const cisco = [

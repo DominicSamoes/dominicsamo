@@ -1,8 +1,9 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import svLogo from "../assets/img/sv_result.webp"
+import dsLogo from "../assets/img/ds-logo_result.webp"
 import montLogo from "../assets/img/mont_result.webp"
+import resLogo from "../assets/img/res_result.webp"
 
 export const Experience = () => {
     const responsive = {
@@ -33,15 +34,31 @@ export const Experience = () => {
                             <h2>Experience</h2>
 
                             <hr className="line" />
-                            
-                            <h4><img src={svLogo} alt="" className="experience"/> SV TECHWORLD</h4>
-                            <h5>Software Development Company</h5>
+
+                            <h4><img src={resLogo} alt="" className="experience"/> The Royal Eswatini Sugar Corporation</h4>
+                            <h5>Food and Beverage Services</h5>
                             <Carousel responsive={responsive} infinite={true} className="skills-slider">
                                 <div className="item">
-                                    <p>Software Engineer</p>
+                                    <p>IT Graduate Trainee</p>
                                 </div>                                
                                 <div className="item">
-                                    <p>March 2023 - Present</p>
+                                    <p>January 2024 - Present</p>
+                                </div>
+                                <div className="item">
+                                    <p>Simunye, Lubombo, Eswatini</p>
+                                </div>
+                            </Carousel>
+                            
+                            <hr className="line" />
+
+                            <h4><img src={dsLogo} alt="" className="experience"/> Dominic Samo</h4>
+                            <h5>Freelancing</h5>
+                            <Carousel responsive={responsive} infinite={true} className="skills-slider">
+                                <div className="item">
+                                    <p>Fullstack Software Engineer</p>
+                                </div>                                
+                                <div className="item">
+                                    <p>March 2023 - November 2023</p>
                                 </div>
                                 <div className="item">
                                     <p>Manzini, Manzini, Eswatini</p>
